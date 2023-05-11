@@ -1,0 +1,26 @@
+{
+    "name": "grpc go",
+    "id": "grpc-go",
+    "version": "0.1.0",
+    "description": "grpc go",
+    "options": {
+        "protoc_version": {
+            "type": "string",
+            "default": "3.20.1",
+            "description": "proto version"
+        },
+        "protoc_gen_go_version": {
+            "type": "string",
+            "default": "latest",
+            "description": "rotoc_gen_go version"
+        },
+        "protoc_gen_go_grpc_version": {
+            "type": "string",
+            "default": "latest",
+            "description": "protoc_gen_go_grpc version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/go"
+    ]
+}
