@@ -17,7 +17,7 @@ check_packages() {
 }
 check_packages pkg-config curl ca-certificates unzip
 # proto
-export PROTOC_VERSION="${PROTOC_VERSION:-"3.20.1"}"
+export PROTOC_VERSION="${PROTOC_VERSION:-"3.20.3"}"
 export PB_REL="https://github.com/protocolbuffers/protobuf/releases"
 curl -LO "$PB_REL/download/v$PROTOC_VERSION/protoc-$PROTOC_VERSION-linux-x86_64.zip"
 unzip protoc-$PROTOC_VERSION-linux-x86_64.zip -d /usr/local

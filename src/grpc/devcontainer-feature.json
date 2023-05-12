@@ -1,12 +1,12 @@
 {
     "name": "grpc go",
     "id": "grpc-go",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "grpc go",
     "options": {
         "protoc_version": {
             "type": "string",
-            "default": "3.20.1",
+            "default": "3.20.3",
             "description": "proto version"
         },
         "protoc_gen_go_version": {
