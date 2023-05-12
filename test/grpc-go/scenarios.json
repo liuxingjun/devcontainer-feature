@@ -3,13 +3,13 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "ghcr.io/devcontainers/features/go": {},
-            "grpc": {}
+            "grpc-go": {}
         }
     },
     "go": {
         "image": "mcr.microsoft.com/devcontainers/go",
         "features": {
-            "grpc": {}
+            "grpc-go": {}
         }
     }
 }

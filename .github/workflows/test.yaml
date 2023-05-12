@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - grpc
+          - grpc-go
     steps:
       - uses: actions/checkout@v3
       - name: "Install latest devcontainer CLI"

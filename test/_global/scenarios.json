@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "ghcr.io/devcontainers/features/go": {},
-            "grpc": {
+            "grpc-go": {
                 "protoc_version": "3.20.2"
             }
         }
