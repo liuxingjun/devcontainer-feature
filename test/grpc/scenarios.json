@@ -1,0 +1,15 @@
+{
+    "base": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers/features/go": {},
+            "grpc": {}
+        }
+    },
+    "go": {
+        "image": "mcr.microsoft.com/devcontainers/go",
+        "features": {
+            "grpc": {}
+        }
+    }
+}
